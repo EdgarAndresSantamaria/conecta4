@@ -1,0 +1,89 @@
+V "GNAT Lib v2014"
+M P W=b
+A -g
+A -gnatA
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U prueba_4enraya%b	prueba_4enraya.adb	b39c951a NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W colocar_ficha%b	colocar_ficha.adb	colocar_ficha.ali
+W datos%s		datos.ads		datos.ali
+W imprimir_tablero%b	imprimir_tablero.adb	imprimir_tablero.ali
+W inicializar_tablero%b	inicializar_tablero.adb	inicializar_tablero.ali
+W solicitar_columna%b	solicitar_columna.adb	solicitar_columna.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181358 69f99942 ada.finalization%s
+D a-inteio.ads		20140406181358 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20140406181354 1a984740 ada.streams%s
+D a-tags.ads		20140406181356 dc4d0634 ada.tags%s
+D a-textio.ads		20140406181358 386df5d4 ada.text_io%s
+D a-tienio.ads		20140406181354 fc618ae6 ada.text_io.enumeration_io%s
+D a-tiinio.ads		20140406181358 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20140406181358 f9eb8f06 ada.unchecked_conversion%s
+D colocar_ficha.adb	20151125153900 7b3d93da colocar_ficha%b
+D comprobar_diagonal.adb  20151125145822 f4d1a2dc comprobar_diagonal%b
+D comprobar_espacio.adb	20151125152232 82deb32f comprobar_espacio%b
+D comprobar_horizontal.adb  20151125145822 39ee0b71 comprobar_horizontal%b
+D comprobar_si_gana.adb	20151125152852 c5f7d01f comprobar_si_gana%b
+D comprobar_vertical.adb  20151125145822 6ee518aa comprobar_vertical%b
+D datos.ads		20151120073416 67c00f81 datos%s
+D imprimir_tablero.adb	20151125153114 a83b395b imprimir_tablero%b
+D inicializar_tablero.adb  20151120074826 5c4f7088 inicializar_tablero%b
+D interfac.ads		20140406181358 69adb1b9 interfaces%s
+D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
+D prueba_4enraya.adb	20151125153942 f13afbe9 prueba_4enraya%b
+D solicitar_columna.adb	20151125153524 92424eaf solicitar_columna%b
+D system.ads		20140406181358 5fc8ae56 system%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181358 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181356 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181354 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181354 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181354 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
+D s-traent.ads		20140406181354 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 23|4r6 4r22
+X 8 a-textio.ads
+49K13*Text_IO 471e16 23|4w10 4r26
+166U14*New_Line 23|38s10 38s57 38s66 46s4 46s13
+263U14*Put_Line 23|38s19 47s4
+X 12 colocar_ficha.adb
+5U11*Colocar_Ficha 23|7w6 35s7
+X 18 datos.ads
+3K9*Datos 14e14 23|5w6 5r16
+7n24*Rojo{7E10} 23|21r20 40r20 41r22
+7n29*Azul{7E10} 23|40r38
+8E13*T_Ficha{7E10} 23|21r11
+10I13*T_Columna{integer} 23|20r13
+12A10*T_Tablero(7E10)<integer><integer> 23|18r13
+X 19 imprimir_tablero.adb
+5U11*imprimir_Tablero 23|8w6 32s4 36s7
+X 20 inicializar_tablero.adb
+4U11*inicializar_Tablero 23|10w6 24s4
+X 23 prueba_4enraya.adb
+15U11*prueba_4enraya 15b11 48l5 48t19
+18a4 Tablero{18|12A10} 24m24 24r24 32r21 34r34 35m21 35r21 36r24
+19b4 Gana{boolean} 35m43 35r43 37r10 44r17
+20i4 Columna{18|10I13} 34m7 35r35
+21e4 Turno{18|8E13} 35r29 40r14 40m31 41m15
+X 24 solicitar_columna.adb
+6V10*Solicitar_Columna{integer} 23|9w6 34s16
+

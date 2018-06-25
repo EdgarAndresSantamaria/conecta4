@@ -1,0 +1,36 @@
+V "GNAT Lib v2014"
+A -g
+A -gnatA
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U comprobar_vertical%b	comprobar_vertical.adb	0925172b NE OO SU IL
+W datos%s		datos.ads		datos.ali
+
+D comprobar_vertical.adb  20151125145822 6ee518aa comprobar_vertical%b
+D datos.ads		20151120073416 67c00f81 datos%s
+D system.ads		20140406181358 5fc8ae56 system%s
+X 1 comprobar_vertical.adb
+5V10*comprobar_vertical{boolean} 5b10 5>30 6>30 7>30 8>30 9>30 10>30 36l5
+. 36t23
+5i30 incrementoFila{integer} 18r14 26r26 31r18
+6i30 incrementoColumna{integer} 27r26 32r18
+7i30 fila{integer} 15r4
+8i30 columna{integer} 16r4
+9a30 Tablero{2|12A10} 21r16
+10e30 Turno{2|8E13} 21r29
+11b1 gana{boolean} 20r57 24m21 35r12
+12i1 i{integer} 15m1 17r20 18m9 18r12 20r24 21r24 26m21 26r24 31m13 31r16
+12i3 j{integer} 16m1 20r39 21r26 27m21 27r24 32m13 32r16
+13i1 cont{integer} 22m17 22r23 23r20 30m13
+X 2 datos.ads
+3K9*Datos 1|2w6 3r5 2|14e14
+5i5*Max_Columnas{integer} 1|20r41
+6i5*Max_Filas{integer} 1|20r26
+8E13*T_Ficha{7E10} 1|10r39
+12A10*T_Tablero(7E10)<integer><integer> 1|9r41
+

@@ -1,0 +1,38 @@
+V "GNAT Lib v2014"
+A -g
+A -gnatA
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U colocar_ficha%b	colocar_ficha.adb	d90a4c44 NE OO SU
+W comprobar_si_gana%b	comprobar_si_gana.adb	comprobar_si_gana.ali
+W datos%s		datos.ads		datos.ali
+
+D colocar_ficha.adb	20151125153900 7b3d93da colocar_ficha%b
+D comprobar_diagonal.adb  20151125145822 f4d1a2dc comprobar_diagonal%b
+D comprobar_horizontal.adb  20151125145822 39ee0b71 comprobar_horizontal%b
+D comprobar_si_gana.adb	20151125152852 c5f7d01f comprobar_si_gana%b
+D comprobar_vertical.adb  20151125145822 6ee518aa comprobar_vertical%b
+D datos.ads		20151120073416 67c00f81 datos%s
+D system.ads		20140406181358 5fc8ae56 system%s
+X 1 colocar_ficha.adb
+5U11*Colocar_Ficha 5b11 5=25 6>25 7>25 8=25 24l5 24t18
+5a25 Tablero{6|12A10} 15r12 22m1 23r38
+6e25 turno{6|8E13} 22r24 23r46
+7i25 columna{integer} 15r25 22r14 23r30
+8b25 gana{boolean} 23m1
+9i1 fila{integer} 13m1 14r17 15r20 17m13 17r19 19m13 19r19 22r9 23r25
+10b1 salir{boolean} 14r37 16m13
+X 4 comprobar_si_gana.adb
+4V10*comprobar_si_gana{boolean} 1|2w6 23s7
+X 6 datos.ads
+3K9*Datos 1|3w6 3r16 6|14e14
+6i5*Max_Filas{integer} 1|14r22
+7n34*Nada{7E10} 1|15r36
+8E13*T_Ficha{7E10} 1|6r35
+12A10*T_Tablero(7E10)<integer><integer> 1|5r40
+

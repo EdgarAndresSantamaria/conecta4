@@ -1,0 +1,25 @@
+V "GNAT Lib v2014"
+A -g
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U comprobar_espacio%b	comprobar_espacio.adb	e51ebcae NE OO SU IL
+W datos%s		datos.ads		datos.ali
+
+D comprobar_espacio.adb	20151125152232 82deb32f comprobar_espacio%b
+D datos.ads		20151120073416 67c00f81 datos%s
+D system.ads		20140406181358 5fc8ae56 system%s
+X 1 comprobar_espacio.adb
+4V10*comprobar_espacio{boolean} 4b10 4>28 5>28 12l5 12t22
+4a28 Tablero{2|12A10} 8r8
+5i28 Columna{integer} 8r18
+6b1 espacio{boolean} 9m9 11r12
+X 2 datos.ads
+3K9*Datos 1|2w6 2r16 2|14e14
+7n34*Nada{7E10} 1|8r27
+12A10*T_Tablero(7E10)<integer><integer> 1|4r39
+

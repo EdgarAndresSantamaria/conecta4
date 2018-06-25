@@ -1,0 +1,26 @@
+V "GNAT Lib v2014"
+A -g
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U datos%s		datos.ads		67c00f81 NE OO PK
+
+D datos.ads		20151120073416 67c00f81 datos%s
+D system.ads		20140406181358 5fc8ae56 system%s
+X 1 datos.ads
+3K9*Datos 14l9 14e14
+5i5*Max_Columnas{integer} 10r43 12r46
+6i5*Max_Filas{integer} 9r40 12r33
+7E10*T_Casilla 7e39 8r24 12r63
+7n24*Rojo{7E10} 8r40
+7n29*Azul{7E10} 8r46
+7n34*Nada{7E10}
+8E13*T_Ficha{7E10}
+9I13*T_Fila{integer}
+10I13*T_Columna{integer}
+12A10*T_Tablero(7E10)<integer><integer>
+

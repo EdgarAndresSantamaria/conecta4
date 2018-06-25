@@ -1,0 +1,42 @@
+V "GNAT Lib v2014"
+A -g
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U comprobar_si_gana%b	comprobar_si_gana.adb	01ed6e99 NE OO SU IL
+W comprobar_diagonal%b	comprobar_diagonal.adb	comprobar_diagonal.ali
+W comprobar_horizontal%b  comprobar_horizontal.adb  comprobar_horizontal.ali
+W comprobar_vertical%b	comprobar_vertical.adb	comprobar_vertical.ali
+W datos%s		datos.ads		datos.ali
+
+D comprobar_diagonal.adb  20151125145822 f4d1a2dc comprobar_diagonal%b
+D comprobar_horizontal.adb  20151125145822 39ee0b71 comprobar_horizontal%b
+D comprobar_si_gana.adb	20151125152852 c5f7d01f comprobar_si_gana%b
+D comprobar_vertical.adb  20151125145822 6ee518aa comprobar_vertical%b
+D datos.ads		20151120073416 67c00f81 datos%s
+D system.ads		20140406181358 5fc8ae56 system%s
+X 1 comprobar_diagonal.adb
+5V10*comprobar_diagonal{boolean} 3|3w6 28s19 34s23
+X 2 comprobar_horizontal.adb
+5V10*comprobar_horizontal{boolean} 3|3w25 16s11
+X 3 comprobar_si_gana.adb
+4V10*comprobar_si_gana{boolean} 4b10 4>28 5>28 6>28 7>28 39l5 39t22
+4i28 fila{integer} 16r65 22r67 28r71 34r75
+5i28 columna{integer} 16r70 22r72 28r76 34r80
+6a28 Tablero{5|12A10} 16r78 22r80 28r84 34r88
+7e28 turno{5|8E13} 16r86 22r88 28r92 34r96
+8i4 incrementoFila{integer} 14m5 16r32 20m9 22r34 26m13 28r38 32m17 34r42
+9i4 incrementoColumna{integer} 15m5 16r47 21m9 22r49 27m13 28r53 33m17 34r57
+10b4 gana{boolean} 16m5 17r8 18r16 22m9 23r12 24r20 28m13 29r16 30r24 34m17
+. 35r24
+X 4 comprobar_vertical.adb
+5V10*comprobar_vertical{boolean} 3|3w46 22s15
+X 5 datos.ads
+3K9*Datos 3|2w6 2r16 5|14e14
+8E13*T_Ficha{7E10} 3|7r37
+12A10*T_Tablero(7E10)<integer><integer> 3|6r39
+

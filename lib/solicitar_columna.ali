@@ -1,0 +1,74 @@
+V "GNAT Lib v2014"
+A -g
+A -gnatA
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U solicitar_columna%b	solicitar_columna.adb	b97a8e71 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W comprobar_espacio%b	comprobar_espacio.adb	comprobar_espacio.ali
+W datos%s		datos.ads		datos.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181358 69f99942 ada.finalization%s
+D a-inteio.ads		20140406181358 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20140406181354 1a984740 ada.streams%s
+D a-tags.ads		20140406181356 dc4d0634 ada.tags%s
+D a-textio.ads		20140406181358 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140406181358 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20140406181358 f9eb8f06 ada.unchecked_conversion%s
+D comprobar_espacio.adb	20151125152232 82deb32f comprobar_espacio%b
+D datos.ads		20151120073416 67c00f81 datos%s
+D interfac.ads		20140406181358 69adb1b9 interfaces%s
+D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
+D solicitar_columna.adb	20151125153524 92424eaf solicitar_columna%b
+D system.ads		20140406181358 5fc8ae56 system%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181358 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181356 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181354 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181354 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181354 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
+D s-traent.ads		20140406181354 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 15|2r6 2r19 3r5 3r18
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 15|2w23 3r22
+X 8 a-textio.ads
+49K13*Text_IO 471e16 15|2w10 3r9
+166U14*New_Line 15|14s9 24s5 29s8
+169U14*Skip_Line 15|13s9
+242U14*Put 15|19s5 21s5 27s8
+263U14*Put_Line 15|12s9
+X 11 comprobar_espacio.adb
+4V10*comprobar_espacio{boolean} 15|2w39 32s17
+X 12 datos.ads
+3K9*Datos 14e14 15|4w6 4r16
+5i5*Max_Columnas{integer} 15|26r29
+12A10*T_Tablero(7E10)<integer><integer> 15|6r39
+X 15 solicitar_columna.adb
+6V10*Solicitar_Columna{integer} 6b10 6>28 39l5 39t22
+6a28 Tablero{12|12A10} 32r35
+7i5 columna{integer} 23m5 26r8 26r21 32r43 38r12
+8b5 espacio{boolean} 32m8 33r11
+8b13 salir{boolean} 18m5 20r20 34m8
+10U15 Pedir_Return 10b15 15l9 15t21 25s5 30s8
+
